@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Bem vindo!</string>
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro">Não tem cadastro? Cadastre-se já!</string>
+    <string name="title_cadastro">Preencha os campos abaixo:</string>
+
+</resources>

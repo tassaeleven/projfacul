@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="330dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:text="Sorveterias disponíveis:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/containerComponents2"
+        style="@style/ContainerComponents"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:layout_width="113dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/sorveteria1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="260dp"
+        android:layout_height="46dp"
+        android:fontFamily="cursive"
+        android:text="Docinho Gelado"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="33dp"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="159dp"
+        android:layout_height="49dp"
+        android:text="Rua Frederico Moura, 56  São Paulo, SP."
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"/>
+
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_4_5_estrelas"
+        android:textColor="@color/black"
+        android:text="4,5 Estrelas"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="68dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <View
+        android:id="@+id/containerComponents3"
+        style="@style/ContainerComponents"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerComponents2" />
+
+    <ImageView
+        android:layout_width="113dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/sorveteria2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="260dp"
+        android:layout_height="46dp"
+        android:fontFamily="cursive"
+        android:text="Ilha do Sorvete"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="33dp"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerComponents2"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="159dp"
+        android:layout_height="49dp"
+        android:text="Rua Pereira Estéfano, 144  Vila da Saúde, SP."
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"/>
+
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/ic_3_estrelas"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="3,2 Estrelas"
+        android:textSize="20dp"
+        android:layout_marginLeft="68dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"/>
+
+    <View
+        android:id="@+id/containerComponents4"
+        style="@style/ContainerComponents"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerComponents3"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="260dp"
+        android:layout_height="46dp"
+        android:fontFamily="cursive"
+        android:text="Taça do Açaí"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="33dp"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerComponents3"/>
+
+    <ImageView
+        android:layout_width="113dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/sorveteria4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="159dp"
+        android:layout_height="49dp"
+        android:text="Avenida Afonso Pena, 2467  Boa Viagem, MG."
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"/>
+
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/ic_4_5_estrelas"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="5 Estrelas"
+        android:textSize="20dp"
+        android:layout_marginLeft="68dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"/>
+
+    <View
+        android:id="@+id/containerComponents5"
+        style="@style/ContainerComponents"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerComponents4"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="260dp"
+        android:layout_height="46dp"
+        android:fontFamily="cursive"
+        android:text="Canto Frio"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="33dp"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerComponents4"/>
+
+    <ImageView
+        android:layout_width="113dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/sorveteria3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="159dp"
+        android:layout_height="49dp"
+        android:text="Rua Cristiano Olsen, 948  Araçatuba, SP."
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"/>
+
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/ic_1_2_estrelas"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="2,0 Estrelas"
+        android:textSize="20dp"
+        android:layout_marginLeft="68dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"/>
+
+    <View
+        android:id="@+id/containerComponents6"
+        style="@style/ContainerComponents"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerComponents5"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="260dp"
+        android:layout_height="46dp"
+        android:fontFamily="cursive"
+        android:text="Casquinha"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="33dp"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerComponents5"/>
+
+    <ImageView
+        android:layout_width="113dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/sorveteria5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"/>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="159dp"
+        android:layout_height="49dp"
+        android:text="Rua Barão de Vitória, 3456  Diadema, SP."
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"/>
+
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/ic_1_2_estrelas"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="1 Estrela"
+        android:textSize="20dp"
+        android:layout_marginLeft="68dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"/>
+
+    <View
+        android:id="@+id/containerComponents7"
+        style="@style/ContainerComponents"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerComponents6"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="260dp"
+        android:layout_height="46dp"
+        android:fontFamily="cursive"
+        android:text="Milk Top's"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="33dp"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerComponents6"/>
+
+    <ImageView
+        android:layout_width="113dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/sorveteria6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="159dp"
+        android:layout_height="49dp"
+        android:text="Avenida São João, 3456  Jundiaí, SP."
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"/>
+
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/ic_4_5_estrelas"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="4,5 Estrelas"
+        android:textSize="20dp"
+        android:layout_marginLeft="68dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_voltartopo"
+        style="@style/Button2"
+        android:text="Ir para o topo"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/containerComponents7"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
